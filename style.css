@@ -1,0 +1,33 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 15px;
+}
+.card {
+background: linear-gradient(to top,#393939 , #707070);
+text-align: center;
+}
+.card img {
+    margin-top: 73px;
+}
+.card .info {
+    text-align: center;
+    padding: 12px;
+    background-color: #303030;
+}
+.card .info .name {
+    margin: 0px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.card .info .name span{
+    color: red;
+}
+.card .info .team {
+    margin: 3px 0 0 0;
+font-weight: 500;
+line-height: 24px;
+font-size: 14px;
+color: #9C9C9C;
+}
