@@ -1,7 +1,72 @@
+.b-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header .logo {
+  border-color: yellow;
+  border-radius: 5px;
+  border-radius: 7px;
+  border: 2px solid #d9ad3a;
+  background-color: #344472;
+  display: block;
+}
+
+.header .logo img {
+  margin-top: 13px;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.left {
+  width: 140px;
+  border-color: grey;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.left .menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.left .menu .item {
+  color: Grey;
+  font-size: 12px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left .menu .item:hover {
+  color: #e4163a;
+}
+
+.left .menu .item img {
+  margin-top: 50px;
+}
+
+.b-signout {
+  color: #ff768e;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
 .b-title {
   display: flex;
   justify-content: space-between;
 }
+
 .header {
   display: flex;
   background: linear-gradient(to right, #707070, #393939);
@@ -29,12 +94,12 @@ td {
   border-bottom: 1px solid rgb(160 160 160);
 }
 
-table th{
-    background-color: orange;
+table th {
+  background-color: orange;
 }
 
 table tr:nth-child(odd) {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 /*table th:nth-child(2) {*/
