@@ -1,2 +1,7 @@
-Test Test Test Test
+Test 1 2 3 4 
 by Alex
+<<<<<<< .mine
+
+=======
+
+>>>>>>> .theirs
